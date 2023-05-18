@@ -105,6 +105,29 @@ function App() {
     }
   };
 
+
+
+
+  //changes i propose
+  
+  // const handleTableChange = (
+  //   pagination: TablePaginationConfig,
+  //   filters: Record<string, FilterValue | null>,
+  //   sorter: SorterResult<DataType> | SorterResult<DataType>[]
+  // ) => {
+  //   setTableParams({
+  //     pagination,
+  //     filters: filters as Record<string, FilterValue>, // Cast filters as Record<string, FilterValue>
+  //     ...sorter,
+  //   });
+
+  //   // `dataSource` is useless since `pageSize` changed
+  //   if (pagination.pageSize !== tableParams.pagination?.pageSize) {
+  //     setData([]);
+  //   }
+  // };
+
+
   return (
     <>
       <Table
